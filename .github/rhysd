@@ -1,0 +1,7 @@
+- name: Rhysd actionlint
+  # You may pin to the exact commit or the version.
+  # uses: devops-actions/actionlint@48ca80d7da4ffd5ed31b7981702bc6bb4b242c63
+  uses: devops-actions/actionlint@v0.1.2
+  with:
+    # Fail the action if errors are found
+    fail-on-errors: # optional, default is true
